@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.cabecalho {
+    display: flex;
+    text-align: center; 
+}
+
+.menu {
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+.menu h1 {
+    font-size: 35px;
+    padding-bottom: 18px;
+}
+
+.menu h3 {
+    font-size: 17px;
+    padding-top: 18px;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    padding: 20px;
+    margin: 5px auto; /* Quando tem um valor aplica-se a tudo; 2 Valores : primeiro valor Topo e Base; segundo valor: esquerda e direita */
+    border-radius: 8px; /* Adiciona uma borda (de 5px no caso) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionar a sombra */
+}
+
+.form input,
+.form select,
+.form textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid; /* Adicionamos uma borda "Solida" a todos esses elementos da class "form-group" (Aqui é uma borda de 1px e solida) */
+    border-radius: 5px;
+}
+
+.form {
+    padding-top: 20px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none; /* Serve para remover a borda do elemento */
+    border-radius: 4px;
+    cursor: pointer;  /* Faz com que o navegador indentifica que é algo clicavel, ele adiciona aquela "mãozinha" quando passasmos o mouse acima do elemento */
+}
+
+.form button:hover {/* O hover serve para adicionarmos alguma funcionalidade quando passamos o cursos do mouse em cima daquele seletor, aqui no nosso caso, quando passamos o mouse acima do botão, ele troca a cor de fundo "Propriedade do button e link´s" */ 
+    background-color: #0056b3;
+}
