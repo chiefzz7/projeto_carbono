@@ -68,3 +68,26 @@ body {
 .form button:hover {/* O hover serve para adicionarmos alguma funcionalidade quando passamos o cursos do mouse em cima daquele seletor, aqui no nosso caso, quando passamos o mouse acima do botão, ele troca a cor de fundo "Propriedade do button e link´s" */ 
     background-color: #0056b3;
 }
+
+.resultados-geral {
+    height: 150px;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.exibir-resultados {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.cont-r {
+    margin-top: 2%;
+}
