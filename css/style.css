@@ -46,6 +46,7 @@ body {
     padding: 10px;
     border: 1px solid; /* Adicionamos uma borda "Solida" a todos esses elementos da class "form-group" (Aqui é uma borda de 1px e solida) */
     border-radius: 5px;
+    outline: none;
 }
 
 .form {
@@ -70,7 +71,7 @@ body {
 }
 
 .resultados-geral {
-    height: 150px;
+    height: 230px;
 }
 
 .resultados {
@@ -90,4 +91,70 @@ body {
 
 .cont-r {
     margin-top: 2%;
+}
+
+
+.voltar {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.voltar:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries para tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .menu h1 {
+        font-size: 24px;
+    }
+
+    .menu h3 {
+        font-size: 14px;
+    }
+
+    .voltar {
+        margin-top: 40px;
+    }
+}
+
+/* Media Queries para celulares */
+@media (max-width: 480px) {
+    .menu h1 {
+        font-size: 20px;
+    }
+
+    .menu h3 {
+        font-size: 12px;
+    }
+
+    .form input,
+    .form select,
+    .form textarea {
+        padding: 8px;
+    }
+
+    .form button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .voltar {
+        margin-top: 15px;
+    }
 }

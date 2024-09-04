@@ -9,9 +9,9 @@ function calcular() {
     var qtdCo2 = result / numAssento
     var qtdArvore = qtdCo2 / 156
 
-    result = result.toFixed(3);
-    qtdCo2 = qtdCo2.toFixed(3);
-    qtdArvore = qtdArvore.toFixed(3);
+    result = result.toFixed(3).replace(".", ",");
+    qtdCo2 = qtdCo2.toFixed(3).replace(".", ",");
+    qtdArvore = qtdArvore.toFixed(3).replace(".", ",");
 
     //Armazenar os dados no localStorage
     localStorage.setItem('nome', nome);
